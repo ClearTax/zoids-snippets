@@ -4,7 +4,7 @@ Supercharge your react component development with zoids using zoids snippets
 
 ## Snippets
 
-|  Prefix | Method                                              |
+|  Prefix | Component                                           |
 | ------: | --------------------------------------------------- |
 |  `zi→`  | `import { componentName } from '@cleartax/zoids'`   |
 |  `zib→`  | `import { button } from '@cleartax/zoids'`         |
