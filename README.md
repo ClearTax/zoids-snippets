@@ -17,6 +17,10 @@ Supercharge your react component development with zoids using zoids snippets
 |  `zcard`| `<Card nature=''></Card>`                           |
 |  `zcardp`| `<Card nature='' align='left'></Card>`             |
 
+### See it in action
+
+![](https://assets1.cleartax-cdn.com/cleargst-frontend/misc/1566637441_zoid-snippets.gif)
+
 ## Release Notes
 
 ## [1.0.0] - 24-08-2019
