@@ -2,7 +2,7 @@
   "name": "zoids-snippets",
   "displayName": "Zoids Snippets",
   "description": "Supercharge your react component development with Zoids using Zoids snippets",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "cleartax",
   "engines": {
     "vscode": "^1.37.0"
