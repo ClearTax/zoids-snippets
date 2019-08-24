@@ -1,0 +1,16 @@
+{
+  "snip": {
+    "description": "Snippet for snippets. Use snip to create custom snippets",
+    "prefix": "snip",
+    "body": [
+      "\"${1: Zoidskey}\": {",
+      "\t\"description\": \"$2\",",
+      "\t\t\"scope\": \"javascript, javascriptreact, typescriptreact\",",
+      "\t\t\"prefix\": \"${3: prefix}\",",
+      "\t\t\"body\": [",
+      "\t\t\t\"$0\"",
+      "\t],",
+      "},"
+    ]
+  }
+}

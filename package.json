@@ -1,20 +1,32 @@
 {
-    "name": "zoids-snippets",
-    "displayName": "Zoids Snippets",
-    "description": "Supercharge your react component development with Zoids using Zoids snippets",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.37.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "'javascript', 'javascriptreact', 'typescriptreact'",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+  "name": "zoids-snippets",
+  "displayName": "Zoids Snippets",
+  "description": "Supercharge your react component development with Zoids using Zoids snippets",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.37.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/zoids.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/zoids.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/zoids.json"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/snippet.json"
+      }
+    ]
+  }
 }

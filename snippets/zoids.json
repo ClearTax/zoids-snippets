@@ -1,0 +1,88 @@
+{
+  "importZoids": {
+    "description": "Import Zoids Components",
+		"scope": "javascript, javascriptreact, typescriptreact",
+    "prefix": "zi",
+    "body": [
+      "import { ${1: module} } from '@cleartax/zoids';"
+    ]
+  },
+  "zoidsContianer": {
+    "description": "Zoids Container",
+		"scope": "javascript, javascriptreact, typescriptreact",
+    "prefix": "zcon",
+    "body": [
+      "<Container>",
+      "\t$0",
+      "</Container>"
+    ]
+  },
+  "zoidsCell": {
+    "description": "Zoids Cell",
+		"scope": "javascript, javascriptreact, typescriptreact",
+    "prefix": "zcel",
+    "body": [
+      "<Cell width='$1'>",
+      "\t$0",
+      "</Cell>"
+    ]
+  },
+  "zoidsCellClassName": {
+    "description": "Zoids Cell with className",
+		"scope": "javascript, javascriptreact, typescriptreact",
+    "prefix": "zcelc",
+    "body": [
+      "<Cell width='$1' className='$2'>",
+      "\t$0",
+      "</Cell>"
+    ]
+  },
+  "zoidsSkeleton": {
+    "description": "Zoids Skeleton",
+      "scope": "javascript, javascriptreact, typescriptreact",
+      "prefix": "zsk",
+      "body": [
+        "<Skeleton active$1 title$2 loading={$3} paragraph={$4}>",
+        "\t$0",
+        "</Skeleton>"
+    ]
+  },
+  "importZdButton": {
+    "description": "Import Zoids Button",
+		"scope": "javascript, javascriptreact, typescriptreact",
+    "prefix": "izb",
+    "body": [
+      "import { Button } from '@cleartax/zoids';"
+    ]
+  },
+  "zoidsButton": {
+    "description": "Zoids Button",
+		"scope": "javascript, javascriptreact, typescriptreact",
+    "prefix": "zbu",
+    "body": [
+      "<Button nature='$1' size='$2' onClick={$3}>",
+      "\t$0",
+      "</Button>"
+    ]
+  },
+  "zoidsCard": {
+    "description": "Zoids card",
+		"scope": "javascript, javascriptreact, typescriptreact",
+    "prefix": "zcard",
+    "body": [
+      "<Card nature='$1'>",
+      "\t$0",
+      "</Card>"
+    ]
+  },
+  "zoidsCardWithProps": {
+    "description": "Zoids card with props",
+		"scope": "javascript, javascriptreact, typescriptreact",
+    "prefix": "zcardp",
+    "body": [
+      "<Card id='$1' nature='$2' align='left$3' compact$4 border$5 hoverable$6>",
+      "\t$0",
+      "</Card>"
+    ]
+  }
+}
