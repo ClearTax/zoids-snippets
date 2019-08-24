@@ -5,18 +5,22 @@
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.37.0"
-	},
-	"keywords": [
+  },
+  "keywords": [
     "snippets",
     "react",
     "javascript",
-		"typescript",
-		"zoids"
-	],
-	"license": "MIT",
+    "typescript",
+    "zoids"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClearTax/zoids-snippets"
+  },
+  "license": "MIT",
   "categories": [
     "Snippets"
-	],
+  ],
   "contributes": {
     "snippets": [
       {
