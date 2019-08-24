@@ -2,13 +2,21 @@
   "name": "zoids-snippets",
   "displayName": "Zoids Snippets",
   "description": "Supercharge your react component development with Zoids using Zoids snippets",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.37.0"
-  },
+	},
+	"keywords": [
+    "snippets",
+    "react",
+    "javascript",
+		"typescript",
+		"zoids"
+	],
+	"license": "MIT",
   "categories": [
     "Snippets"
-  ],
+	],
   "contributes": {
     "snippets": [
       {
