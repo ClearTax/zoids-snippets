@@ -6,7 +6,8 @@
 	"publisher": "cleartax",
   "engines": {
     "vscode": "^1.37.0"
-  },
+	},
+	"icon": "images/pinchy.png",
   "keywords": [
     "snippets",
     "react",
