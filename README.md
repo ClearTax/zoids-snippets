@@ -2,7 +2,7 @@
 
 Supercharge your react component development with zoids using zoids snippets
 
-## Snippets
+## Zoids Snippets
 
 |  Prefix | Component                                           |
 | ------: | --------------------------------------------------- |
@@ -20,6 +20,10 @@ Supercharge your react component development with zoids using zoids snippets
 ### See it in action
 
 ![](https://assets1.cleartax-cdn.com/cleargst-frontend/misc/1566637441_zoid-snippets.gif)
+
+## Super snippet
+
+Use `snip` snippet to create Zoids snippets
 
 ## Release Notes
 
