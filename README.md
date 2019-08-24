@@ -34,12 +34,3 @@ Supercharge your react component development with zoids using zoids snippets
 ## Super snippet
 
 Use `snip` snippet to create Zoids snippets
-
-## Release Notes
-
-## [1.0.3] - 24-08-2019
-
-### Added
-
-- Basic snippets for zoids components
-- A snippet to create Zoids snippet
