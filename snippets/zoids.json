@@ -42,7 +42,22 @@
         "</Skeleton>"
     ]
   },
-  "importZdButton": {
+  "zoidsHeading": {
+    "description": "Zoids Heading",
+      "prefix": "zhe",
+      "body": [
+        "<Heading text='$1' size='$2'/>"
+    ]
+  },
+  "zoidsText": {
+    "description": "Zoids Text",
+      "scope": "javascript, javascriptreact, typescriptreact",
+      "prefix": "zte",
+      "body": [
+        "<Text>$0</Text>"
+    ]
+  },
+  "importButton": {
     "description": "Import Zoids Button",
     "prefix": "zib",
     "body": [
@@ -56,6 +71,16 @@
       "<Button nature='$1' size='$2' onClick={$3}>",
       "\t$0",
       "</Button>"
+    ]
+  },
+  "zoidsButtonGroup": {
+    "description": "Zoids Button Group",
+      "scope": "javascript, javascriptreact, typescriptreact",
+      "prefix": "zbug",
+      "body": [
+        "<ButtonGroup>",
+        "\t$0",
+        "</ButtonGroup>"
     ]
   },
   "zoidsCard": {
@@ -74,6 +99,22 @@
       "<Card id='$1' nature='$2' align='left$3' compact$4 border$5 hoverable$6>",
       "\t$0",
       "</Card>"
+    ]
+  },
+  "zoidsLoader": {
+    "description": "Zoids Loader",
+      "prefix": "zlo",
+      "body": [
+        "<Loader nature='$1'>",
+        "\t$0",
+        "</Loader>"
+    ]
+  },
+  "zoidsMesage": {
+    "description": "Zoids Message",
+      "prefix": "zme",
+      "body": [
+        "<Message nature='$1' heading='$2' description=''/>"
     ]
   }
 }

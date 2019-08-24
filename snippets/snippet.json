@@ -5,7 +5,6 @@
     "body": [
       "\"${1: Zoidskey}\": {",
       "\t\"description\": \"$2\",",
-      "\t\t\"scope\": \"javascript, javascriptreact, typescriptreact\",",
       "\t\t\"prefix\": \"${3: prefix}\",",
       "\t\t\"body\": [",
       "\t\t\t\"$0\"",
