@@ -26,6 +26,8 @@ Supercharge your react component development with zoids using zoids snippets
 |  `zbr→`   | `<Breadcrumbs breadcrumbs={} inline={} />`          |
 |  `ztag→`  | `<Tag color=''></Tag>`                              |
 |  `zto→`   | `<Tooltip content='' placement=''></Tooltip>`       |
+|  `zmod→`  | `<Modal size='m' open={}></Modal>`                  |
+|  `zmodf→`  | `<Modal.Footer></Modal.Footer>`                    |
 
 ### See it in action
 
@@ -34,3 +36,5 @@ Supercharge your react component development with zoids using zoids snippets
 ## Super snippet
 
 Use `snip` snippet to create Zoids snippets
+
+![snippet](https://assets1.cleartax-cdn.com/cleargst-frontend/misx/1566657235_zoids_snippet.gif)

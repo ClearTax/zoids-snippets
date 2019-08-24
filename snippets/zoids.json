@@ -154,5 +154,32 @@
         "\t$0",
         "</Tooltip>"
     ]
+  },
+  "zoidsModal": {
+    "description": "Zoids Modal",
+      "prefix": "zmod",
+      "body": [
+        "<Modal size='m' open={$1} onDismiss={$2}>",
+        "\t<Modal.Header text='$3' onDismiss={$4} />",
+        "\t<Modal.Content>",
+        "\t\t$0",
+        "\t</Modal.Content>",
+        "</Modal>"
+    ]
+  },
+  "zoidsModalwithFooter": {
+    "description": "Zoids Modal with Footer",
+      "prefix": "zmodf",
+      "body": [
+        "<Modal size='m' open={$1} onDismiss={$2}>",
+        "\t<Modal.Header text='$3' onDismiss={$4} />",
+        "\t<Modal.Content>",
+        "\t\t$0",
+        "\t</Modal.Content>",
+        "\t<Modal.Footer>",
+        "\t\t$5",
+        "\t</Modal.Footer>",
+        "</Modal>"
+    ]
   }
 }

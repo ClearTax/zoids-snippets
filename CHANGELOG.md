@@ -21,3 +21,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Breadcrumbs
 - Tag
 - Tooltip
+
+## [1.1.0] - 24-08-2019
+
+### Added
+
+- Modal
+- Modal.Header
+- Modal.Content
+- Modal.Footer
