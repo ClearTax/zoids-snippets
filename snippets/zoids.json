@@ -51,7 +51,6 @@
   },
   "zoidsText": {
     "description": "Zoids Text",
-      "scope": "javascript, javascriptreact, typescriptreact",
       "prefix": "zte",
       "body": [
         "<Text>$0</Text>"
@@ -75,7 +74,6 @@
   },
   "zoidsButtonGroup": {
     "description": "Zoids Button Group",
-      "scope": "javascript, javascriptreact, typescriptreact",
       "prefix": "zbug",
       "body": [
         "<ButtonGroup>",
