@@ -1,6 +1,6 @@
 {
   "snip": {
-    "description": "Snippet for snippets. Use snip to create custom snippets",
+    "description": "Snippet to create Zoids snippets",
     "prefix": "snip",
     "body": [
       "\"${1: Zoidskey}\": {",

@@ -1,7 +1,6 @@
 {
   "importZoids": {
     "description": "Import Zoids Components",
-		"scope": "javascript, javascriptreact, typescriptreact",
     "prefix": "zi",
     "body": [
       "import { ${1: module} } from '@cleartax/zoids';"
@@ -9,7 +8,6 @@
   },
   "zoidsContianer": {
     "description": "Zoids Container",
-		"scope": "javascript, javascriptreact, typescriptreact",
     "prefix": "zcon",
     "body": [
       "<Container>",
@@ -19,7 +17,6 @@
   },
   "zoidsCell": {
     "description": "Zoids Cell",
-		"scope": "javascript, javascriptreact, typescriptreact",
     "prefix": "zcel",
     "body": [
       "<Cell width='$1'>",
@@ -29,7 +26,6 @@
   },
   "zoidsCellClassName": {
     "description": "Zoids Cell with className",
-		"scope": "javascript, javascriptreact, typescriptreact",
     "prefix": "zcelc",
     "body": [
       "<Cell width='$1' className='$2'>",
@@ -39,7 +35,6 @@
   },
   "zoidsSkeleton": {
     "description": "Zoids Skeleton",
-      "scope": "javascript, javascriptreact, typescriptreact",
       "prefix": "zsk",
       "body": [
         "<Skeleton active$1 title$2 loading={$3} paragraph={$4}>",
@@ -49,15 +44,13 @@
   },
   "importZdButton": {
     "description": "Import Zoids Button",
-		"scope": "javascript, javascriptreact, typescriptreact",
-    "prefix": "izb",
+    "prefix": "zib",
     "body": [
       "import { Button } from '@cleartax/zoids';"
     ]
   },
   "zoidsButton": {
     "description": "Zoids Button",
-		"scope": "javascript, javascriptreact, typescriptreact",
     "prefix": "zbu",
     "body": [
       "<Button nature='$1' size='$2' onClick={$3}>",
@@ -67,7 +60,6 @@
   },
   "zoidsCard": {
     "description": "Zoids card",
-		"scope": "javascript, javascriptreact, typescriptreact",
     "prefix": "zcard",
     "body": [
       "<Card nature='$1'>",
@@ -77,7 +69,6 @@
   },
   "zoidsCardWithProps": {
     "description": "Zoids card with props",
-		"scope": "javascript, javascriptreact, typescriptreact",
     "prefix": "zcardp",
     "body": [
       "<Card id='$1' nature='$2' align='left$3' compact$4 border$5 hoverable$6>",
