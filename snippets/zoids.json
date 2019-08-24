@@ -114,5 +114,45 @@
       "body": [
         "<Message nature='$1' heading='$2' description=''/>"
     ]
+  },
+  "zoidsList": {
+    "description": "Zoids List",
+      "prefix": "zli",
+      "body": [
+        "<List type='ul' size='$1' listStyle='$2'>",
+        "\t<li>$3</li>",
+        "\t<li>$4</li>",
+        "</List>"
+    ]
+  },
+  "zoidsPagination": {
+    "description": "Zoids Pagination",
+      "prefix": "zpg",
+      "body": [
+        "<Pagination total='$1' />"
+    ]
+  },
+  "zoidsBreadCrumbs": {
+    "description": "Zoids Breadcrumbs",
+      "prefix": "zbr",
+      "body": [
+        "<Breadcrumbs breadcrumbs={$1} inline={$2} />"
+    ]
+  },
+  "zoidsTag": {
+    "description": "Zoids Tag",
+      "prefix": "ztag",
+      "body": [
+        "<Tag color='$1'>$0</Tag>"
+    ]
+  },
+  "zoidsTooltip": {
+    "description": "Zoids Tooltip",
+      "prefix": "zto",
+      "body": [
+        "<Tooltip content='$1' placement='top$2'>",
+        "\t$0",
+        "</Tooltip>"
+    ]
   }
 }

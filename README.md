@@ -21,6 +21,11 @@ Supercharge your react component development with zoids using zoids snippets
 |  `zcardp→`| `<Card nature='' align='left'></Card>`              |
 |  `zlo→`   | `<Loader nature=''></Loader>`                       |
 |  `zme→`   | `<Message nature='' heading='' description='' />`   |
+|  `zli→`   | `<List type='ul' size='' listStyle=''></List>`      |
+|  `zpg→`   | `<Pagination total='' />`                           |
+|  `zbr→`   | `<Breadcrumbs breadcrumbs={} inline={} />`          |
+|  `ztag→`  | `<Tag color=''></Tag>`                              |
+|  `zto→`   | `<Tooltip content='' placement=''></Tooltip>`       |
 
 ### See it in action
 
@@ -32,7 +37,7 @@ Use `snip` snippet to create Zoids snippets
 
 ## Release Notes
 
-## [1.0.1] - 24-08-2019
+## [1.0.3] - 24-08-2019
 
 ### Added
 
