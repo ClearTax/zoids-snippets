@@ -35,6 +35,20 @@ Supercharge your react component development with zoids using zoids snippets
 
 ## Super snippet
 
-Use `snip` snippet to create Zoids snippets
+Built a new Zoids component? Creating a snippet to support your component is super easy.
+
+Use the `snip` snippet to create Zoids snippets
 
 ![snippet](https://assets1.cleartax-cdn.com/cleargst-frontend/misx/1566657235_zoids_snippet.gif)
+
+## Guidelines to contribute
+
+- Add your snippet to the `snippets/zoids.json` file.
+- Update the [Zoids snippets](https://github.com/ClearTax/zoids-snippets#zoids-snippets-1) section in `README.md`.
+- Update the `CHANGELOG.md`.
+- Bump up the version in `package.json`.
+- Install Visual Studio Code Extention by running `npm install -g vsce`.
+- Run `vsce package` to build a new version.
+- Go to cleartax's Visual Studio [marketplace](https://marketplace.visualstudio.com/manage/publishers/cleartax) and upload the package.
+
+> Note: Reach out to `rajanand@cleartax.in` to get access to publish the package in marketplace
