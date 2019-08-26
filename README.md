@@ -2,6 +2,10 @@
 
 Supercharge your react component development with zoids using zoids snippets
 
+## "What is zoids?"
+
+Zoids is the internal design system for cleartax built with react and styled-components.
+
 ## Zoids Snippets
 
 |  Prefix   | Component                                           |
